@@ -1,0 +1,25 @@
+eZMailHide README
+================
+
+Description
+-----------
+eZMailHide extension helps you protect your customers inboxes from spamming by asking anonymous users to solve a reCAPTCHA challenge
+before they can view any email address managed by the content management system of eZ Publish.
+It uses reCAPTCHA API but it does not need you to sign up to reCaptcha.net, 
+as far as reCAPTCHA Mailhide API key can be freely generated here : http://mailhide.recaptcha.net/apikey
+
+Features
+--------
+
+* The reCAPTCHA can only be solved by humans, so this stops spammers from gaining access to published email addresses through automated programs.
+* With eZMailHide extension, id, css, classes, title, hreflang are ok. 
+* no reCAPTCHA challenge is required as far as your are logged in !
+
+
+reCAPTCHA README
+================
+
+The reCAPTCHA PHP Lirary helps you use the reCAPTCHA API. Documentation
+for this library can be found at
+
+	http://recaptcha.net/plugins/php
